@@ -1,0 +1,91 @@
+@media screen and (max-width:600px) {
+    body {
+        background-color: rgb(8, 197, 197);
+        /* background-image: linear-gradient(to right, blue, yellow, aqua, green, red);
+        background-size: contain; */
+        
+    
+    }
+    
+    .writeup {
+        padding-left: 15px;
+        padding-bottom: 10px;
+    }
+    
+    .photome {
+        width: 350px;
+        border-radius: 180px;
+    }
+    .work {
+        background-color: aliceblue;
+        border-radius: 20px;
+        height: 300px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .work_done {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 30px;
+    }
+    .logo_jobs {
+        background-color: black;
+        color: white;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .flier_jobs {
+        background-color: black;
+        color: white;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .club_jobs {
+        background-color: black;
+        color: white;
+        width: 80%;
+    }
+    .company_jobs {
+        background-color: black;
+        color: white;
+        width: 80%;
+    }
+    .workbase {
+        color: white;
+        text-decoration: none;
+    }
+    .contact {
+        background-color: aliceblue;
+        border-radius: 20px;
+        height: 300px;
+        color: rgb(22, 205, 159);
+        
+        
+    }
+    .con {
+        padding-left: 20px;
+        color: navy;
+        
+    }
+    .cl {
+        color: red;
+    }
+    .num {
+        color: rgb(22, 205, 159);
+    }
+    .foot {
+        text-align: center;
+    }
+    .sidecontents {
+        display: none;
+        background-color: white;
+        height: 250px;
+        width: 95px;
+        padding-left: 10px;
+        position: absolute;
+    }
+    .sidecontents > h2 > a {
+        text-decoration: none;
+        color: black;
+    }
+
+}

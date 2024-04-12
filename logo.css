@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.jobs {
+    padding-left: 2px;
+}
+.imgjob {
+    width: 220px;
+}
+.btn {
+    position: fixed;
+}
